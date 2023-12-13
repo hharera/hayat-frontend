@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Opben-Sans", "sans-serif";
+}
+
+ul {
+  list-style: none;
+}
+
+/* Start variables */
+:root {
+  --main-color: #19c8fa;
+  --sec-color: rgb(15 116 143 / 50%)
+}
+
+/* End variables */
+
+/* Start header */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container .nav {
+  display: flex;
+}
+
+.container .header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-height: 0px;
+  margin-left: 414px;
+  bottom: 125px;
+  right: -31px;
+  font-size: 19px;
+}
+
+.container .image .one {
+  position: relative;
+  bottom: 15px;
+  left: -40px !important;
+  height: 170px;
+  width: 301px;
+}
+
+.container .image .tow {
+  position: absolute;
+  float: left;
+  width: 90%;
+  height: 83%;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+}
+
+.container .header .menu_items {
+  display: flex;
+}
+
+.container .header .menu_items ul {
+  display: flex;
+  margin-top: 5px;
+}
+
+.container .header .menu_items ul li {
+  margin-right: 50px;
+  transition: 0.6s;
+}
+
+.container .header .menu_items ul .active, li:hover {
+  color: #4ba3fff0;
+  border-bottom: 1px solid #4ba3fff0;
+  cursor: pointer;
+
+}
+
+.container .header .menu_items button {
+  margin-right: 36px;
+  width: 136px;
+  height: 32px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .header .menu_items .button1 {
+  background: #4ba3fff0;
+}
+
+.container .header .menu_items .button2 {
+  background: #1715a3d9;
+
+}
+
+.container .header .menu_items button a {
+  color: white;
+}
+
+.container .header .menu_items button:hover {
+  background-color: rgb(249 147 112);
+  transition: all ease-in-out 0.5s;
+}
+
+/* Start Body */
+.container .body {
+  width: 33%;
+  position: relative;
+  z-index: 10;
+}
+
+.container .body .text {
+  margin-bottom: 50px;
+}
+
+.container .body .text h1 {
+  color: #02328c;
+  font-weight: bold;
+}
+
+.container .body .text p:first-of-type {
+  font-size: 22px;
+}
+
+.container .body .text p:last-of-type {
+  line-height: 1.9;
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.container .body button {
+  width: 190px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 25px;
+  color: white;
+}
+
+.container .body .button-one {
+  background-color: #0089d9;
+
+}
+
+.container .body .button-tow {
+  background-color: #02328c;
+}
+
+.body-images {
+  position: relative;
+  width: 100%;
+  height: 204px;
+  justify-items: right;
+  bottom: 50%;
+  transform: translateY(-50%);
+
+}
+
+.body-images img:first-of-type {
+  width: 42%;
+  height: 185%;
+  z-index: 100;
+  position: absolute;
+  right: -60px;
+  bottom: -2%;
+}
+
+.body-images img:last-of-type {
+  width: 105%;
+  height: 659px;
+  position: absolute;
+  left: 32px;
+  bottom: -103px;
+}
+
